@@ -1,0 +1,4 @@
+* A Collection of things I learned everyday
+* Today I Learned
+  - [[file:unix.org][Unix]]
+    - [[file:unix.org::*File%20System%20Hierarchy][File System Hierarchy]] 

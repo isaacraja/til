@@ -1,0 +1,6 @@
+* File System Hierarchy
+  - While reading [[https://leanpub.com/the-tao-of-tmux/read][The Tao of Tmux]], I found that you can do
+    #+BEGIN_SRC sh
+      man hier
+    #+END_SRC
+    and it'll give the description of the filesystem hierarchy of the current system 
