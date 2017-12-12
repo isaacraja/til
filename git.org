@@ -1,0 +1,3 @@
+* Revert a pull 10 minutes ago
+  You can revert a commit that was made sometime before using the following command
+  ~git reset --hard master@{"10 minutes ago"}~
