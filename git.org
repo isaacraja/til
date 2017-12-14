@@ -5,5 +5,5 @@
   If you accidently commit a big file into git, you'll have problems when pushing to remote that doesn't support git large file system.
   This command just removes it not only from the commit, but also from the history
   #+BEGIN_SRC 
-  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch PrimeSlotNov22.sql'  --prune-empty --tag-name-filter cat -- --all
+  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch bigfile.sql'  --prune-empty --tag-name-filter cat -- --all
   #+END_SRC
