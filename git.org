@@ -1,3 +1,9 @@
 * Revert a pull 10 minutes ago
   You can revert a commit that was made sometime before using the following command
   ~git reset --hard master@{"10 minutes ago"}~
+* Remove a big file from git history 
+  If you accidently commit a big file into git, you'll have problems when pushing to remote that doesn't support git large file system.
+  This command just removes it not only from the commit, but also from the history
+  #+BEGIN_SRC 
+  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch PrimeSlotNov22.sql'  --prune-empty --tag-name-filter cat -- --all
+  #+END_SRC

@@ -3,4 +3,5 @@
   - [[file:unix.org][Unix]]
     - [[file:unix.org::*File%20System%20Hierarchy][File System Hierarchy]] 
   - [[file:git.org][Git]]
-    -[[file:git.org::*Revert%20a%20pull%2010%20minutes%20ago][ Revert a pull 10 minutes ago]] 
+    - [[file:git.org::*Revert%20a%20pull%2010%20minutes%20ago][Revert a pull 10 minutes ago]] 
+    -[[file:git.org::*Remove%20a%20big%20file%20from%20git%20history][ Remove a big file from git history]] 
